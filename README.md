@@ -1,9 +1,6 @@
 # google_tag_manager
 
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+Dart wrapper around google tag manager js api
 
 ## Usage
 
