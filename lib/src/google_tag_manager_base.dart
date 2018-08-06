@@ -11,7 +11,6 @@ void push(Map<String, dynamic> data) {
   _push(jsify(data));
 }
 
-
 void pushEvent(String event, {Map<String, dynamic> data}) {
   data ??= <String, dynamic>{};
   data["event"] = event;
