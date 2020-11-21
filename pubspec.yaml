@@ -1,14 +1,14 @@
 name: google_tag_manager
 description: Dart wrapper around google tag manager js api
-version: 0.0.3
-homepage: https://lefty.io
-author: Hadrien Lejard <hadrien.lejard@gmail.com>
+version: 0.0.4-nullsafety.0
+homepage: https://github.com/leftyio/google_tag_manager
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: ">=2.12.0-0 <3.0.0"
 
 dependencies:
-  js: ^0.6.1
+  js: ^0.6.3-nullsafety.0
 
 dev_dependencies:
-  test: ^1.3.0
+  test: ^1.16.0-nullsafety.0
+  pedantic: ^1.10.0-nullsafety.0
